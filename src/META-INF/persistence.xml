@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="InmobiliariaFinalx3PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entidades.WaitList</class>
+    <class>Entidades.Cuenta</class>
+    <class>Entidades.Foto</class>
+    <class>Entidades.Ubicacion</class>
+    <class>Entidades.Banco</class>
+    <class>Entidades.Agencia</class>
+    <class>Entidades.Propiedad</class>
+    <class>Entidades.Tarjeta</class>
+    <class>Entidades.Agente</class>
+    <class>Entidades.Propietario</class>
+    <class>Entidades.Sucursal</class>
+    <class>Entidades.Cliente</class>
+    <class>Entidades.RentaSolicitud</class>
+    <class>Entidades.IndicesPro</class>
+    <class>Entidades.Indicespro</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is186400"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="nMeIH7pgiJ"/>
+    </properties>
+  </persistence-unit>
+</persistence>
